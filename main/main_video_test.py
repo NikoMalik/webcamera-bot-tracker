@@ -60,8 +60,7 @@ def main():
     with open("your_pickle", "rb") as file:
         data = pickle.load(file)
     
-    #video_path = "face_detection_venv/main/video/MrBeast Sigma Original Vs Edit.mp4"
-    #or
+    
     video_path = "youtube_url"
     
     video = cv2.VideoCapture(video_path)
