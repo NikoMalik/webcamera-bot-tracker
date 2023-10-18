@@ -95,11 +95,14 @@ train.py: The script to train the face recognition model and generate encodings.
 Other project files as required.
 
 
+Acknowledgments
+[face_recognition library](https://github.com/ageitgey/face_recognition)
+
 
 ## Contributing
 Feel free to contribute to this project by creating issues, suggesting improvements, or submitting pull requests.
 
 
 ## License
-This project is licensed under the MIT License 
+This project is licensed under the MIT License See the LICENSE file for details.
 
