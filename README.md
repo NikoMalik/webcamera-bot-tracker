@@ -1,6 +1,6 @@
 # CAMERA-BOT-TRACKER
 
-This project provides a guide on how to train a face recognition model and create face encodings using a dataset of images. The generated encodings can be used for facial recognition in various applications.
+The purpose of this project is to help with free open source software for your security camera with the possibility
 
 ## Table of Contents
 
@@ -21,7 +21,6 @@ This project provides a guide on how to train a face recognition model and creat
 ## Description
 
 The purpose of this project is to help with free open source software for your security camera with the possibility of upgrading and customizing it to suit your needs. This model can also be used to recognize faces in images or videos.
-
 
 ## Features
 
