@@ -79,12 +79,12 @@ def main():
     
    
     
-    # Comment the line below when processing a regular video
+  
     video_path = "your_url_youtube"
     
     video_capture = connect_to_youtube_stream(video_path)
     
-    with concurrent.futures.ThreadPoolExecutor(max_workers=2) as executor:  # Limit the number of threads
+    with concurrent.futures.ThreadPoolExecutor(max_workers=2) as executor:  
         process_frames(video_capture, data)
         video_capture.release()
         cv2.destroyAllWindows()
