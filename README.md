@@ -91,7 +91,7 @@ else:
 ## File Structure
 train.py: The script to train the face recognition model and generate encodings.
 {name}_encodings.pickle: The output file containing face encodings for the given name.
-Other project files as required.
+
 
 
 ## Acknowledgments:
