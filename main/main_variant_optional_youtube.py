@@ -77,8 +77,7 @@ def main():
     with open("your_pickle", "rb") as file:
         data = pickle.load(file)
     
-    # Uncomment the line below to process a regular video
-    # video_path = "face_detection_venv/main/video/MrBeast Sigma Original Vs Edit.mp4"
+   
     
     # Comment the line below when processing a regular video
     video_path = "your_url_youtube"
