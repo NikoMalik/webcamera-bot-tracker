@@ -68,7 +68,7 @@ After running the train.py script, you'll have a {name}_encodings.pickle file th
 You can use the trained model and face encodings for facial recognition in your applications. The face_recognition library can be utilized for real-time recognition or batch processing of images or video frames.
 
 ## Example usage:
-'with open("your_name_for_pickle_encodings.pickle", "rb") as file:
+'(with open("your_name_for_pickle_encodings.pickle", "rb") as file:
     data = pickle.load(file)
 
 Load an image
@@ -86,7 +86,7 @@ if any(results):
     recognized_name = data["name"]
     print(f"Recognized as {recognized_name}")
 else:
-    print("Unknown face")'
+    print("Unknown face"))'
 
 ## File Structure
 train.py: The script to train the face recognition model and generate encodings.
