@@ -88,7 +88,7 @@ if any(results):
     recognized_name = data["name"]
     print(f"Recognized as {recognized_name}")
 else:
-    print("Unknown face")```
+    print("Unknown face")
 
 ```
 
